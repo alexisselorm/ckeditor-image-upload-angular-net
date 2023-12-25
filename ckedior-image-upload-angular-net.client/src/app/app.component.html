@@ -1,0 +1,19 @@
+﻿<div>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="title">Title</label>
+      <input name="title" id="title" type="text" formControlName="title" />
+    </div>
+    <div>
+      <label for="body">Body</label>
+      <textarea
+        name="body"
+        id="body"
+        formControlName="body"
+        cols="30"
+        rows="10"
+      ></textarea>
+    </div>
+    <button>Post Blog</button>
+  </form>
+</div>
