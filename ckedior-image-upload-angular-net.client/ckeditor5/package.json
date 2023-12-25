@@ -11,32 +11,19 @@
     "@ckeditor/ckeditor5-autoformat": "40.2.0",
     "@ckeditor/ckeditor5-basic-styles": "40.2.0",
     "@ckeditor/ckeditor5-block-quote": "40.2.0",
-    "@ckeditor/ckeditor5-cloud-services": "40.2.0",
-    "@ckeditor/ckeditor5-code-block": "40.2.0",
     "@ckeditor/ckeditor5-editor-classic": "40.2.0",
     "@ckeditor/ckeditor5-essentials": "40.2.0",
-    "@ckeditor/ckeditor5-font": "40.2.0",
     "@ckeditor/ckeditor5-heading": "40.2.0",
-    "@ckeditor/ckeditor5-highlight": "40.2.0",
-    "@ckeditor/ckeditor5-horizontal-line": "40.2.0",
-    "@ckeditor/ckeditor5-html-embed": "40.2.0",
-    "@ckeditor/ckeditor5-html-support": "40.2.0",
     "@ckeditor/ckeditor5-image": "40.2.0",
     "@ckeditor/ckeditor5-indent": "40.2.0",
     "@ckeditor/ckeditor5-link": "40.2.0",
     "@ckeditor/ckeditor5-list": "40.2.0",
     "@ckeditor/ckeditor5-media-embed": "40.2.0",
-    "@ckeditor/ckeditor5-mention": "40.2.0",
-    "@ckeditor/ckeditor5-page-break": "40.2.0",
     "@ckeditor/ckeditor5-paragraph": "40.2.0",
     "@ckeditor/ckeditor5-paste-from-office": "40.2.0",
-    "@ckeditor/ckeditor5-show-blocks": "40.2.0",
-    "@ckeditor/ckeditor5-source-editing": "40.2.0",
-    "@ckeditor/ckeditor5-special-characters": "40.2.0",
     "@ckeditor/ckeditor5-table": "40.2.0",
     "@ckeditor/ckeditor5-typing": "40.2.0",
     "@ckeditor/ckeditor5-undo": "40.2.0",
-    "@ckeditor/ckeditor5-watchdog": "40.2.0",
     "@ckeditor/ckeditor5-word-count": "40.2.0"
   },
   "devDependencies": {
@@ -57,6 +44,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
+    "dev": "webpack --mode development",
     "postbuild": "tsc --declaration --declarationDir build --stripInternal --emitDeclarationOnly"
   }
 }

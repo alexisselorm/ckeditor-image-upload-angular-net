@@ -6,13 +6,14 @@
     </div>
     <div>
       <label for="body">Body</label>
-      <textarea
+      <ckeditor
+        [editor]="editor"
         name="body"
         id="body"
         formControlName="body"
         cols="30"
         rows="10"
-      ></textarea>
+      ></ckeditor>
     </div>
     <button>Post Blog</button>
   </form>
