@@ -113,7 +113,6 @@ export default class MyUploadAdapter {
   // ...
 }
 // Upload ADAPTOR
-// Upload ADAPTOR
 export function MyCustomUploadAdapterPlugin(editor: any) {
   editor.plugins.get('FileRepository').createUploadAdapter = (
     loader: FileLoader
@@ -122,14 +121,3 @@ export function MyCustomUploadAdapterPlugin(editor: any) {
     return new MyUploadAdapter(loader);
   };
 }
-
-export function Highlight(editor: any) {
-  console.log('Highlight has been registered', editor.builtInPlugins);
-}
-
-// Editor
-// ClassicEditor.create(document.querySelector('#body'), {
-//   extraPlugins: [MyCustomUploadAdapterPlugin],
-// }).catch((error) => {
-//   console.error(error);
-// });
